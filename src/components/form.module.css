@@ -1,0 +1,33 @@
+.form {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+}
+.input {
+  display: block;
+  width: 100%;
+  border: none;
+  color: black;
+  font-size: 25px;
+}
+.input:focus {
+  outline: none;
+}
+.button {
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: blue;
+  padding: 12px 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  border: none;
+}
+.inputContainer {
+  display: flex;
+}
